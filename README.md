@@ -14,6 +14,10 @@ Clone the repository and navigate to your hubspot account and open CRM Developme
 
 Now in the CLI, enter into this newly created folder by `cd display-iframe-modal/src/app/extensions`. Run `npm install` to install the dependencies for this project.
 
-### Step 2: Upload project
+### Step 2: Install dependencies
+
+While in `cd display-iframe-modal/src/app/extensions`. Run `DisplayIframe.jsx` and update URI for the iframe (currently there is placeholder calculator).
+
+### Step 3: Upload project
 
 Run `hs project upload`. If you’d like to build on this project.
