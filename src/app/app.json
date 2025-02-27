@@ -1,0 +1,16 @@
+{
+  "name": "Iframce for deals calculator",
+  "description": "Custom calculator for your deals",
+  "scopes": ["crm.objects.contacts.read", "crm.objects.contacts.write", "crm.objects.deals.read", "crm.objects.deals.write", "crm.objects.companies.write", "crm.objects.companies.read"],
+  "uid": "iframe_modal_example_app",
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/iframe-modal-example-card.json"
+        }
+      ]
+    }
+  }
+}
